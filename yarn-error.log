@@ -1,0 +1,67 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add @hot-loader/react-dom
+
+PATH: 
+  /Users/livehealth/Downloads/flutter/bin:/Users/livehealth/Project/elasticsearch-7.1.0/bin:/Users/livehealth/Project/jdk-12.0.1.jdk/Contents/Home/bin:/Users/livehealth/Library/Android/sdk/tools:/Users/livehealth/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Downloads/flutter/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/livehealth/practice/reacthot/node_modules/@babel/core/node_modules/source-map'
+
+npm manifest: 
+  {
+  	"name": "reacthot",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"test": "echo \"Error: no test specified\" && exit 1",
+  		"start": "webpack-dev-server --hot"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"devDependencies": {
+  		"@babel/cli": "7.4.4",
+  		"@babel/core": "7.4.5",
+  		"@babel/plugin-proposal-class-properties": "7.4.4",
+  		"@babel/plugin-transform-regenerator": "7.4.5",
+  		"@babel/plugin-transform-runtime": "^7.6.2",
+  		"@babel/preset-env": "7.4.5",
+  		"@babel/preset-react": "7.0.0",
+  		"babel-loader": "8.0.6",
+  		"css-loader": "3.0.0",
+  		"file-loader": "4.0.0",
+  		"postcss-loader": "3.0.0",
+  		"react-html-parser": "2.0.2",
+  		"resize-observer-polyfill": "1.5.1",
+  		"style-loader": "0.19.0",
+  		"terser-webpack-plugin": "1.3.0",
+  		"url-loader": "0.6.2",
+  		"webpack": "4.17.2",
+  		"webpack-cli": "3.1.0"
+  	},
+  	"dependencies": {
+  		"@babel/runtime": "^7.6.3",
+  		"babel-polyfill": "^6.26.0",
+  		"babel-runtime": "^6.26.0",
+  		"react": "^16.3.1",
+  		"react-dom": "^16.10.2",
+  		"react-hot-loader": "^4.12.15",
+  		"webpack-dev-server": "^3.8.2"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
